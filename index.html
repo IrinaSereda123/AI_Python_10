@@ -410,13 +410,6 @@ print(model.evaluate(x_test, y_test))</code></pre>
     <h3>Задание 4 (★). Классификатор одежды</h3>
     <p>Замените MNIST на <code>FashionMNIST</code> (в PyTorch: <code>datasets.FashionMNIST</code>, в Keras: <code>keras.datasets.fashion_mnist</code>). Обучите сеть различать футболки, кроссовки и сумки. Сравните точность PyTorch и Keras.</p>
   </div>
-  <details>
-    <summary>Мини-квиз: проверьте себя</summary>
-    <p><strong>1.</strong> В каком порядке OpenCV хранит цвета? — BGR.</p>
-    <p><strong>2.</strong> Чем детекция отличается от классификации? — Детекция ещё находит, <em>где</em> объект (рамка).</p>
-    <p><strong>3.</strong> Зачем нужен <code>cv2.cvtColor(..., COLOR_BGR2RGB)</code> перед MediaPipe? — Модель ждёт RGB, а камера отдаёт BGR.</p>
-    <p><strong>4.</strong> Что делает <code>loss.backward()</code>? — Вычисляет, как изменить веса, чтобы ошибка уменьшилась.</p>
-  </details>
 </section>
 
 <section id="res">
